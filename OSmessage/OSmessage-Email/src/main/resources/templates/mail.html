@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>测试模版发送邮件 此为thymeleaf模版，可自由定义：</p>
+<table>
+    <tr>
+        <td>参数1</td>
+        <td th:text="${param1}"></td>
+    </tr>
+    <tr>
+        <td>参数2</td>
+        <td th:text="${param2}"></td>
+    </tr>
+    <tr>
+        <td>参数3</td>
+        <td th:text="${param3}"></td>
+    </tr>
+</table>
+<div style="color: #0f79e3">也可以设置文字颜色</div>
+</body>
+</html>
